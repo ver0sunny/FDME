@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #0C134F;
+    padding: 0;
+}
+
+@keyframes enlarge {
+    to {
+        transform: scale(0.9);
+    }
+}
+
+.hover\:animate-enlarge:hover {
+    animation: 
+        enlarge 0.1s ease-out forwards;
+}
+
+/* .focus\:enlarge:focus {
+    animation: 
+        enlarge 0.1s ease-out forwards;
+} */
